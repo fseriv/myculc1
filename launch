@@ -24,4 +24,6 @@ pip3 install --user --upgrade Cython==0.29.19 virtualenv  # the --user should be
 # add the following line at the end of your ~/.bashrc file
 export PATH=$PATH:~/.local/bin/
 
+sudo apt-get install openjdk-11-jdk
+
 buildozer android debug deploy run
